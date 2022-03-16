@@ -1,7 +1,7 @@
 # Maintainer: Lenard Frommelt <lenny09918050@gmail.com>
 
 pkgname=machine-thingy-openssh
-pkgver=r3.19ec636
+pkgver=r4.2083d82
 pkgrel=1
 pkgdesc='Package to configure openssh for a machine-thingy'
 arch=('any')
