@@ -1,0 +1,6 @@
+post_install() {
+    ln -sf /etc/arch-evolver/config/ssh/sshd_config /etc/ssh/sshd_config
+    ssh-keygen -t ed25519 -f /etc/ssh/identity -q -N ""
+    systemctl enable sshd
+    systemctl start sshd
+}

@@ -1,4 +1,0 @@
-post_install() {
-    ln -sf /etc/arch-evolver/config/nginx/nginx.conf /etc/nginx/nginx.conf
-    mkdir -p /etc/nginx/servers
-}

@@ -2,6 +2,6 @@
 
 !.gitignore
 !LICENSE
-!machine-thingy-nginx.install
+!machine-thingy-openssh.install
 !PKGBUILD
 !UNLICENSE
